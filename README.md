@@ -54,6 +54,25 @@ MT_landings_df.head()
 
 ### Transform:
 ```Python
+#Creating new dataframe with selected columns" Company, Launch Date, Launch Time, Launch Site, and Vehicle Type" 
+new_space_missions_df = space_missions_df[["id","Company","Year","Launch Time","Launch Site","Vehicle Type"]]
+
+#Highlight any nans with the color red. 
+new_space_missions_df.style.highlight_null(null_color='red')
+
+```
+
+```Python
+#create new data frame with selected columns
+MT_landings_df=MT_landings_df[["name", "id", "mass", "year", "Lat","Long"]]
+#display head
+MT_landings_df.head()
+```
+
+
+
+
+```Python
 #Sort by date. 
 
 spacemissions_df=spacemissions_df.rename(columns={"Company":"company"})

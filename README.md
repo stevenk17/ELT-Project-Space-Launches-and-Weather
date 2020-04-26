@@ -34,7 +34,7 @@ The proposal of this ETL is to extract data from a space launch data CSV and met
 
 <img src="Images/Dataoutput.PNG">
 
-**Additional Notes**
-Please note this ETL was created with orginal thought.  
+**Additional Notes:**
+Please note that this ETL was created with orginal thought.  
 
  

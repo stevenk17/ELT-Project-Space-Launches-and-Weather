@@ -30,7 +30,7 @@ The proposal of this ETL is to extract data from a space launch data CSV and met
 
 ### Load:
 
-### Conclusion
+### Conclusion:
 
 <img src="Images/Dataoutput.PNG">
 

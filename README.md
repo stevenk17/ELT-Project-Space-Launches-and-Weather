@@ -30,6 +30,45 @@ The proposal of this ETL is to extract data from a space launch data CSV and met
 
 ### Load:
 
+```SQL
+CREATE TABLE "spacelaunch"(
+id INT,
+company varchar(255),
+year INT NOT NULL,
+launchtime TIME NOT NULL,
+launchsite varchar(255),
+vehicletype varchar(255)
+);
+	
+CREATE TABLE "spacelaunchdetail"(
+name varchar(255) NOT NULL, 
+id INT, 
+mass INT, 
+year INT NOT NULL, 
+lat DECIMAL,
+long DECIMAL
+);
+
+--Creating Query to form a database based on information that we are looking for which is: name of meteor, lat, long, meteor size, 
+--Vehicle Launch Year, Vehicle Type, Company, Launch Site
+
+Select spacelaunchdetail.name,
+spacelaunchdetail.lat, 
+spacelaunchdetail.long,
+spacelaunchdetail.mass as "Meteor Size (meters)",
+spacelaunch.year as "Vehicle Launch Year", 
+spacelaunch.vehicletype, 
+spacelaunch.company , 
+spacelaunch.launchsite 
+from spacelaunch
+Full outer join spacelaunchdetail
+On spacelaunch.year = spacelaunchdetail.year
+WHERE spacelaunchdetail.year > 1964;
+
+
+
+```
+
 ### Conclusion:
 
 | name            | lat         | long         | Meteor Size \(meters\) | Vehicle Launch Year | vehicletype | company      | launchsite     |

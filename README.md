@@ -24,11 +24,11 @@ The proposal of this ETL is to extract data from a space launch data CSV and met
 
 ## Project Report
 
-### Extract
+### Extract:
 
-### Transform 
+### Transform:
 
-### Load
+### Load:
 
 ### Conclusion
 

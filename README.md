@@ -11,6 +11,7 @@
 
 The proposal of this ETL is to extract data from a space launch data CSV and meteorite landing CSV, both from Kaggle. All this data will be transformed, centered around the launch date of each space craft, launched into a Postgres SQL, hoping to tell a story of space launches in relation to meteorite landings. 
 
+<img src="Images/ETL%20Image.PNG" width=100, height=100>
 
 ## Finding Data
 
@@ -29,3 +30,4 @@ The proposal of this ETL is to extract data from a space launch data CSV and met
 **Additional Notes**
 Please note this ETL was created with orginal thought.  
 
+ 

@@ -17,16 +17,16 @@
 ## Project Report 
 
 
-# **Extract:**
+# Extract: 
 
 
 
-# **Transform:**
+# Transform: 
 
 
 
 
-# **Load:**
+# Load:
 
 **Additional Notes**
 

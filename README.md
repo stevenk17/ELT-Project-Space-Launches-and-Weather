@@ -53,6 +53,41 @@ MT_landings_df.head()
 
 
 ### Transform:
+```Python
+#Sort by date. 
+
+spacemissions_df=spacemissions_df.rename(columns={"Company":"company"})
+
+spacemissions_df=spacemissions_df.rename(columns={"Year":"year"})
+
+spacemissions_df=spacemissions_df.rename(columns={"Launch Time":"launchtime"})
+
+spacemissions_df=spacemissions_df.rename(columns={"Launch Site":"launchsite"})
+
+spacemissions_df=spacemissions_df.rename(columns={"Vehicle Type":"vehicletype"})
+
+spacemissions_df=spacemissions_df.sort_values(by='year')
+
+#read as .style to show sorted 
+spacemissions_df.head()
+``` 
+```Python
+#Drop NANs
+MT_landings_df=MT_landings_df.dropna(how="any")
+
+#Rename columns
+MT_landings_df=MT_landings_df.rename(columns={"Year":"year"})
+MT_landings_df=MT_landings_df.rename(columns={"Lat":"lat"})
+MT_landings_df=MT_landings_df.rename(columns={"Long":"long"})
+
+#sort by year
+MT_landings_df= MT_landings_df.sort_values(by='year')
+
+#display df
+MT_landings_df.head()
+
+```
+
 
 ### Load:
 

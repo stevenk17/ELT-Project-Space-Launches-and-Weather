@@ -176,9 +176,7 @@ WHERE spacelaunchdetail.year > 1964;
 
 
 
-<img src="https://media.giphy.com/media/3ohs4rclkSSrNGSlFK/giphy.gif">
-
-
+<img src="https://media.giphy.com/media/3ohs4rclkSSrNGSlFK/giphy.gif" width=800> 
 
 
 

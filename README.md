@@ -110,6 +110,14 @@ MT_landings_df.head()
 
 ### Load:
 
+```Python
+spacemissions_df.to_sql(name='spacelaunch', con=engine, if_exists='append', index=False)
+
+```
+```Python
+MT_landings_df.to_sql(name='spacelaunchdetail', con=engine, if_exists='append', index=False)
+```
+
 #### SQL CODE
 
 ```SQL

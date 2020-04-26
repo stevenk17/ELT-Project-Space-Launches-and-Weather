@@ -155,8 +155,6 @@ Full outer join spacelaunchdetail
 On spacelaunch.year = spacelaunchdetail.year
 WHERE spacelaunchdetail.year > 1964;
 
-
-
 ```
 
 ### Conclusion:
@@ -172,6 +170,25 @@ WHERE spacelaunchdetail.year > 1964;
 | Verissimo       | \-19\.73333 | \-48\.31667  | 14000                  | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
 | Bocaiuva        | \-17\.16667 | \-43\.83333  | 64000                  | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
 | New York        | 0           | 0            | 2950                   | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
+
+
+
+
+
+
+<img src="https://media.giphy.com/media/3ohs4rclkSSrNGSlFK/giphy.gif">
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Additional Notes:**
 Please note that this ETL was created with orginal thought.  

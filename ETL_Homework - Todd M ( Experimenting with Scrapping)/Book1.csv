@@ -1,0 +1,251 @@
+﻿Country,Launch Site,Vehicle,"[30.972 S, 136.475 E]"
+AUSTRALIA/(UNITED KINGDOM),Woomera,"LA-5B: (Black Arrow 1969-70, dismantled)","[31.074 S, 136.439 E]"
+AUSTRALIA/(UNITED KINGDOM),Woomera,"LA-6A: (Europa 1966-71, dismantled)","[31.079 S, 136.445 E]"
+AUSTRALIA/(UNITED KINGDOM),Woomera,"LA-6B: (Europa, never used, dismantled)","[31.034 S, 136.463 E]"
+AUSTRALIA/(UNITED KINGDOM),Woomera,"LA-8: (Redstone-Sparta, 1966-67, retired)",
+CHINA ,Woomera,,
+CHINA ,Jiuquan (50-70 deg recoverable) (JQ),LC 2/Pad 5020 (2A): (CZ-1)(Site retired),"[41.306 N, 100.314 E]"
+CHINA ,Jiuquan (50-70 deg recoverable) (JQ),"LC 2/Pad 138 (2B): (CZ-2C, CZ-2D)(Site retired)","[41.309 N, 100.317 E]"
+CHINA ,Jiuquan (50-70 deg recoverable) (JQ),LC 3: (DF-2/3)(Site Retired),"[41.282 N, 100.305 E]"
+CHINA ,Jiuquan (50-70 deg recoverable) (JQ),"LC 43/Pad 921 (SLS 4R): (CZ-2F, 1999- ) ","[40.958 N, 100.291 E]"
+CHINA ,Jiuquan (50-70 deg recoverable) (JQ),"LC 43/Pad 603 (SLS 4L): (CZ-2D,-4C,-4B, 2003- )","[40.961 N, 100.298 E] "
+CHINA ,Kuaizhou Pad:  Kuaizhou (2013- ),CA-11/KT-2 Pad:  (2015- ),"[40.972 N, 100.364 E] "
+CHINA ,Wenchang ,"(CZ-7, CZ-5) (WC)","[40.969 N, 100.343 E]"
+CHINA ,Pad 201 (East): (CZ-7)(2016- ),,"[19.619 N, 110.955 E]"
+CHINA ,Pad 101 (West): (CZ-5)(2017? ),,"[19.614 N, 110.951 E]        "
+CHINA ,"Xichang (only LH2 site, for GTO) (XC)",,"[28.247 N, 102.029 E]"
+CHINA ,"Pad 1: (CZ-3, CZ-2C)",,"[28.246 N, 102.027 E]"
+CHINA ,"Pad 2: (CZ-2E, CZ-3A, CZ-3B) ",,"[28.247 N, 102.029 E]"
+CHINA ,Pad 3(Former 1 Rebuilt 2006):  (CZ-3A),,"[28.250 N, 102.023 E]"
+CHINA ,"Pad 4?: (KT-1 ASAT?, Retired?)",,"[28.243 N, 102.033 E]                 "
+CHINA ,"Pad 5?: (New Flat Pad, ~2010)",,
+CHINA ,Taiyuan (LEO/P or LEO/S) (TY),"LC 7: (CZ-2C, CZ-4B) ","[38.849 N, 111.608 E]"
+CHINA ,,LC 9: (CZ-4B/C)(2008- ),"[38.863 N, 111.589 E]"
+CHINA ,,LC 10?: (CZ-6) (2015- )                         ,"[38.868 N, 111.580 E]"
+EUROPE/ARIANESPACE,"Kourou, French Guiana (KO)",,
+EUROPE/ARIANESPACE,,"ZLV: (was ELA 1 for Ariane 1-3, retired 1989, ","[5.236 N, 52.775 W]"
+EUROPE/ARIANESPACE,, ,
+EUROPE/ARIANESPACE,,"ZL2: (was Ariane 4, retired 2003)","[5.232 N, 52.776 W]"
+EUROPE/ARIANESPACE,,"ZL3: (Ariane 5, first launch 1996)","[5.239 N, 52.769 W]"
+EUROPE/ARIANESPACE,,"ELS: (Soyuz-2, 2011- )","[5.301 N, 52.837 W]"
+FRANCE/ALGERIA,"Brigitte Pad:  (Diamant-A, 1965-67)",,"[30.871 N, 3.008 W]"
+INDIA,Sriharikota (SRI),,
+INDIA,Satish Dhawan Space Center,,
+INDIA,,,
+INDIA,"PSLV Pad (PSLV, GSLV): ",,"[13.733 N, 80.235 E]"
+INDIA,"SLP: (PSLV, GSLV, first launch 2005) ",,"[13.720 N, 80.230 E]"
+IRAN,"Semnan, Iran (SE) Dasht-e-Kavir Desert",,
+IRAN,Safir Pad:                                     ,," [35.234 N, 53.921 E]"
+IRAN,Unknown New Larger Pad:                        ,," [35.238 N, 53.951 E]"
+ITALY/(KENYA),"San Marco Platform:  (Scout, 1967-88, retired)",,"[2.942 S, 40.206 E]"
+JAPAN,Kagoshima (KA),,
+JAPAN,Epsilon/M5/Mu Pad: (M5) ,,"[31.251 N, 131.082 E]"
+JAPAN,SS-520/Lambda/Sounding Rocket Pad:,,"[31.252 N, 131.079 E]"
+JAPAN,,,
+JAPAN,Tanegashima (TA),,
+JAPAN,"Osaki-Y LP1: (H-2, H-2A 2001- ) ",,"[30.401 N, 130.977 E] "
+JAPAN,Osaki-Y LP2: (H-2A/B) ,,"[30.401 N, 130.975 E]"
+JAPAN,"Osaki-N (N-1/2, H-1, J-1, GX) ",,"[30.399 N, 130.970 E]"
+NEW ZEALAND,Mahia Peninsula (MA),,
+NEW ZEALAND,RocketLab Electron (2017),,"[39.2512 S, 177.8673 E]"
+NORTH KOREA,Musudan-ri (MU),,
+,"Taepo Dong 1 (1998), Taepo Dong 2 (2006)",,
+,Unha 2 (2009),,"[40.8555 N, 129.6659 E]"
+,Tongchang-ri (TO) Unha 3 (2012)                 ,,"[39.6599 N, 124.7058 E]"
+RUSSIA/KAZAKHSTAN,1/5: (Soyuz-Soyuz/Progress/Ikar) ,,"[45.920 N, 63.342 E]"
+,31/6: (Soyuz-Kosmos/Fregat) ,,"[45.996 N, 63.564 E]"
+,41/15: (Kosmos 3)(1964-1968)(Inactive) ,,"[45.976 N, 63.669 E]"
+,"45/1: (Zenit 2, Zenit 2M, Zenit 3M) ",,"[45.943 N, 63.653 E]"
+,45/2: (Zenit 2)(Destroyed in 1990 explosion) ,,"[45.940 N, 63.655 E]"
+,81/23 (81L): (Proton-K) ,,"[46.074 N, 62.978 E]"
+,81/24 (81P): (Proton-M) ,,"[46.071 N, 62.985 E]"
+,90/19 (90L): (Tsyklon-2)(Inactive >1989) ,,"[46.081 N, 62.932 E]"
+,90/20 (90R): (Tsyklon-2)(Retired 2006),,"[46.080 N, 62.935 E]"
+,109/95: (Dnepr) ,,"[45.951 N, 63.497 E]"
+,110/37 (110L): (N-1)(Inactive >1972) ,,"[45.965 N, 63.305 E]"
+,110/38 (110R): (N-1)(Inactive 1969 explosion) ,,"[45.962 N, 63.310 E]"
+,131/29: (Rokot test 1990)          ,,"[46.071 N, 62.958 E]"
+,"175/58: (Rokot tests 1991,94)            ",,"[46.051 N, 62.987 E]"
+,175/59: (Strela >2003) ,,"[46.052 N, 62.986 E]"
+,200/39 (200L): (Proton-M/Proton-K) ,,"[46.040 N, 63.032 E]"
+,200/40 (200R): (Proton-K)(Inactive >1991) ,,"[46.036 N, 63.038 E]"
+,250: (Energia)(Inactive >1988) ,,"[46.008 N, 63.305 E]"
+"Plesetsk Cosmodrome, Russia (PL)",16/2: (Soyuz/Molniya) ,,"[62.960 N, 40.682 E]"
+,32/1 (32L): (Tsyklon 3) ,,"[62.907 N, 40.787 E]"
+,32/2 (32R): (Tsyklon 3) ,,"[62.906 N, 40.789 E]"
+,35: (Angara) Under Construction ,,"[62.928 N, 40.575 E]"
+,41/1: (Soyuz/Molniya)(Inactive >1989) ,,"[62.941 N, 40.529 E]"
+,43/3 (43L): (Soyuz/Molniya) ,,"[62.927 N, 40.450 E]"
+,43/4 (43R): (Soyuz/Molniya/Soyuz-2) ,,"[62.929 N, 40.457 E]"
+,132/1 (132L): (Kosmos 3M) ,,"[62.883 N, 40.868 E]"
+,132/2 (132R): (Kosmos 3M)(Inactive >1990) ,,"[62.884 N, 40.872 E]"
+,"133/3 (133L): (Kosmos 3M 1985-94, Rokot 2000-) ",,"[62.887 N, 40.847 E]"
+"Kapustin Yar, Russia (KY)",107/1: (Kosmos 3M) ,,"[48.541 N, 46.300 E]"
+,107/2: (Kosmos 3M) ,,"[48.540 N, 46.298 E]"
+,,,"[51.792 N, 128.185 E]"
+"Svobodney Cosmodrome, Russia (SV)",Start Launch Site: (Start-1) ,,
+,,,"[51.036 N, 59.958 E]"
+"Dombarovskiy, Russia (DO)",,,
+,Yasny Launch Site ICBM silo (R-36M2/Dnepr): ,,
+,,,
+,,,"[51.885 N, 128.335 E]"
+"Vostochnyy Cosmodrome, Russia (SV)",Soyuz 2 Launch Site: (LD 1) ,,
+,,,
+,,,
+,"Sea Launch Home Port, Long Beach, CA ",,"[33.745 N, 118.224 W]"
+SEA LAUNCH,Sea Launch Site: (Zenit 3SL/Blok DMSL)(POR) ,,"[0.0 N, 154.0 W]"
+SOUTH KOREA,"Naro Space Center, Goheung, S. Jeolla (NA)",KSLV 1 (2009) ,"[34.432 N, 127.535 E]"
+"USA,Cape Canaveral, FL (CC)",SLC 37B: (Delta 4 2002- ) ,,"[28.531 N, 80.565 W] "
+,SLC 40: (Falcon 9 2010- )               ,,"[28.562 N, 80.577 W]"
+,SLC 41: (Atlas 5 2002- ) ,,"[28.583 N, 80.583 W]"
+"USA Kennedy Space Center, FL (KSC)","LC 39A: (Saturn 5, 1967-73, Shuttle, 1981-2011,",,"[28.583 N, 80.583 W]"
+,"          Falcon 9, 2017-  )",,"[28.458 N, 80.528 W]"
+,"LC 39B: (Saturn 5, 1969, Saturn 1B, 1973-75, ",,
+,"          Shuttle, 1986-2006, Ares 1X, 2010)",,
+"Vandenberg AFB, CA (V)",SLC 2W: (Delta 2) ,,"[34.756 N, 120.622 W]"
+,SLC 3E: (Refurbished 1999 for Atlas 2A(S)),,
+,          rebuilt for Atlas 5 2007- ),,"[34.640 N, 120.590 W]"
+,SLC 4E:  (PA LC2-4) Atlas-Agena 1964-1966,,
+,         Titan 3D/34D/4(B) 1966-2005,,
+,,,"[34.632 N, 120.611 W]"
+,SLC 6: (Delta 4 first launch 2006) ,,"[34.582 N, 120.626 W]"
+,"SLC 8: (Was CLF, adjacent SLC-6) ",,"[34.576 N, 120.632 W]"
+,"        (Orbital Minotaur, Minotaur 4)",,
+,SLC 576E: (Orbital Sciences Taurus) ,,"[34.739 N, 120.619 W]"
+"Wallops Island, Virginia","Launch Area 0-A: (Conestoga, 1995) ",,
+"Wallops Island, Virginia","Launch Area 0-B: (Minotaur, 2006-) ",,
+"Wallops Island, Virginia","Launch Area 0-B: (Minotaur, 2006-) ",,
+"Wallops Island, Virginia",Wallops Flight Facility (NASA),,
+"Wallops Island, Virginia","Launch Area 3: (Scout, 1960-1985) ",,
+"Kwajalein Atoll, Marshall Is. (KW)","Pegasus XL, staged from Kwajalein Runway ",,
+"Kwajalein Atoll, Marshall Is. (KW)","SpaceX Falcon 1 Pad, Omelek Is. ",,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+ ,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,  ,

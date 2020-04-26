@@ -25,6 +25,32 @@ The proposal of this ETL is to extract data from a space launch data CSV and met
 ## Project Report
 
 ### Extract:
+```Python
+#Import CSV File
+csv_file="Resources/SpaceMissions.csv"
+
+#Store CSV File in Dataframe
+space_missions_df=pd.read_csv(csv_file)
+
+#Read Dataframe
+space_missions_df.head()
+
+
+```
+```Python
+
+#Import CSV File
+csv_file="Resources/MTlanding.csv"
+
+#Store CSV File in Dataframe
+MT_landings_df=pd.read_csv(csv_file)
+
+#Read Dataframe
+MT_landings_df.head()
+
+
+```
+
 
 ### Transform:
 

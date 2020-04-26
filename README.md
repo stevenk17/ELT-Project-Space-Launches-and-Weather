@@ -9,7 +9,7 @@
 
 ## Project Proposal 
 
-The proposal of this ETL is to extract data from a space launch data CSV and meteorite landing CSV, both from Kaggle. All this data will be transformed, centered around the launch date of each space craft, launched into a Postgres SQL, hoping to tell a story of space launches in relation to meteorite landings. 
+The proposal of this ETL is to extract data from a space launch data CSV and meteorite landing CSV, both from Kaggle. All this data will be transformed, centered around the launch date of each space craft, loaded into a Postgres SQL, hoping to tell a story of space launches in relation to meteorite landings. 
 
 <img src="Images/ETL%20Image.PNG">
 
@@ -25,6 +25,13 @@ The proposal of this ETL is to extract data from a space launch data CSV and met
 ## Project Report
 
 ### Extract:
+The first step of the process was to import the CSV files into the Jupyter Notebook. Please note that there was some
+editing done in Microsoft Excel so the files could be read better. Please see the code below in understanding the extraction process. 
+
+It is important to note that in the beginning of our process of extracting data, we orginally wanted to scrape
+a website with launch data. The results of scraping allowed us to realize that this wasn't what we were looking for. It wasn't
+going to help us tell a story about space launches in relation to meteorite landings. But, please see the files attached in our repo for examination.
+
 ```Python
 #Import CSV File
 csv_file="Resources/SpaceMissions.csv"
@@ -52,7 +59,10 @@ MT_landings_df.head()
 ```
 
 
-### Transform:
+### Transform: 
+
+After extracting the data, a new dataframe was established with the columns we needed. 
+
 ```Python
 #Creating new dataframe with selected columns" Company, Launch Date, Launch Time, Launch Site, and Vehicle Type" 
 new_space_missions_df = space_missions_df[["id","Company","Year","Launch Time","Launch Site","Vehicle Type"]]
@@ -70,7 +80,7 @@ MT_landings_df.head()
 ```
 
 
-
+In addition, we renamed some of the columns so PostgreSQL could read the dataframes better. In the early process of transfering the data, it was discovered that PostgreSQL did not like the column names. Also, the dataframes were both sorted by year to understand the dataframes better.
 
 ```Python
 #Sort by date. 
@@ -110,6 +120,8 @@ MT_landings_df.head()
 
 ### Load:
 
+Below is the python code used to load each dataframe into each table in PostgreSQL. 
+
 ```Python
 spacemissions_df.to_sql(name='spacelaunch', con=engine, if_exists='append', index=False)
 
@@ -118,7 +130,7 @@ spacemissions_df.to_sql(name='spacelaunch', con=engine, if_exists='append', inde
 MT_landings_df.to_sql(name='spacelaunchdetail', con=engine, if_exists='append', index=False)
 ```
 
-#### SQL CODE
+Below is the code used to create tables, which include declaring SQL table variables. Also, below is the code for the Query, which was used in helping us load the data we wanted in creating our database. 
 
 ```SQL
 CREATE TABLE "spacelaunch"(
@@ -157,7 +169,18 @@ WHERE spacelaunchdetail.year > 1964;
 
 ```
 
-### Conclusion:
+### Conclusion: 
+
+In conclusion, we were able to create a database that captured information on meteorite landings during the years that
+space vehicles were launched into space. We discovered that there were meteorite landings during the years that space vehicles 
+were launched into space and possibly played some role in trajectory calculations for each vehicle. When we think about probability,
+we think about calculations made on passed events to predict future outcomes. Perhaps, this database can be used to make probability calculations in relation to vehicle launch trajectory. In addition, this database can be modified and used with a a new recent development from PostgreSQL, called: PostGIS. PostGIS allows for location queries to be run and opens up new potential for this ETL project.
+
+
+
+
+
+
 
 | name            | lat         | long         | Meteor Size \(meters\) | Vehicle Launch Year | vehicletype | company      | launchsite     |
 |-----------------|-------------|--------------|------------------------|---------------------|-------------|--------------|----------------|

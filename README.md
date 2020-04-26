@@ -32,7 +32,17 @@ The proposal of this ETL is to extract data from a space launch data CSV and met
 
 ### Conclusion:
 
-<img src="Images/Dataoutput.PNG">
+| name            | lat         | long         | Meteor Size \(meters\) | Vehicle Launch Year | vehicletype | company      | launchsite     |
+|-----------------|-------------|--------------|------------------------|---------------------|-------------|--------------|----------------|
+| Anton           | 33\.7825    | \-102\.18111 | 41800                  | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
+| River           | \-30\.36667 | 126\.01667   | 191                    | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
+| Kyle            | 29\.975     | \-97\.86667  | 7780                   | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
+| McCook          | 40\.02      | \-100\.78333 | 3602                   | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
+| Burnabbie       | \-32\.05    | 126\.16667   | 2515                   | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
+| Dingo Pup Donga | \-30\.43333 | 126\.1       | 123                    | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
+| Verissimo       | \-19\.73333 | \-48\.31667  | 14000                  | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
+| Bocaiuva        | \-17\.16667 | \-43\.83333  | 64000                  | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
+| New York        | 0           | 0            | 2950                   | 1965                | Titan IIIC  | US Air Force | Cape Canaveral |
 
 **Additional Notes:**
 Please note that this ETL was created with orginal thought.  

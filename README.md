@@ -200,6 +200,6 @@ we think about calculations made on passed events to predict future outcomes. Pe
 
 
 **Additional Notes:**
-Please note that this ETL was created with orginal thought.  
+Please note that this ETL was created with original thought.  
 
  
